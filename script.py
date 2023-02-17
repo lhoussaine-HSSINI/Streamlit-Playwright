@@ -36,7 +36,7 @@ def app():
         page_source_thread.join()
 
         # Display the page source in Streamlit
-        st.code(page_source, language='html')
+        st.code(page_source)
 
 
 # Run the Streamlit app
